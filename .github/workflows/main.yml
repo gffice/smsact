@@ -31,7 +31,7 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Run work
-        env:
+        env: |
           aaa:ohhhhhhhhhhhhhhhhhhhhh
         run: |
           echo Add other actions to build,
